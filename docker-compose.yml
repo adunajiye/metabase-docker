@@ -43,6 +43,6 @@ networks:
     driver: bridge
 secrets:
    db_password:
-     file: db_password.txt
+     file: /root/metabase-docker/db_password.txt
    db_user:
-     file: db_user.txt
+     file: /root/metabase-docker/db_user.txt
